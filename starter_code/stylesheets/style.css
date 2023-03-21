@@ -43,6 +43,7 @@ hr{
         background-color: transparent;
         border: none;
     }
+    
     .flex2{
         display: flex;
         flex-direction: column;
@@ -128,10 +129,14 @@ hr{
     h3{
         text-align: center;
         font-size: 30pt;
+        width: 400px;
+        margin-left: 185px;
     }
     .txtn3{
         text-align: center;
         font-size: 15pt;
+        width: 380px;
+        margin-left: 185px;
     }
     .botoes{
         display: flex;
@@ -155,6 +160,8 @@ hr{
     .txtn4{
         text-align: center;
         font-size: 15pt;
+        width: 300px;
+        margin-left: 220px;
     }
     .bloco2 {
         background-color: #540B51;
@@ -163,6 +170,9 @@ hr{
         color: white;
         text-align: center;
         font-size: 30pt;
+        width: 400px;
+        margin-left: 185px;
+        padding-top: 40px;
     }
     .botoes3{
         display: flex;
@@ -199,9 +209,11 @@ hr{
         font-size: 15pt;
         color: #4285F4;
     }   
-    .icones_web{
+    .iconesWeb{
         display: flex;
-        align-content: space-around;      
+        align-items: space-between;
+        justify-content: center;
+        flex-direction: row;      
     }
     
 
