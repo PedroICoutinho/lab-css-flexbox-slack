@@ -8,3 +8,201 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 768px;
+}
+
+.corDeFundo{
+    background-color: #540B51 ;
+    
+}
+hr{
+    color: rgb(177, 177, 177);
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {      
+    .menus { 
+        display: none;
+    }
+    .slackIcon {
+        width: 110px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+               
+    }
+    .icones{
+        margin-top: 40px;
+        margin-right: 35px;
+        background-color: transparent;
+        border: none;
+    }
+    .flex2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;        
+    }
+    h1{
+        color: white;
+        font-size: 50pt;
+        margin: 65px;
+        margin-bottom: 20px;
+    }
+    .txtn1{
+        font-size: 20pt;
+        color: white;
+    }
+    i{
+    font-style: normal;
+    color: #ECB12F;
+    }
+    .icones1{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        gap: 15px;
+        font-size: 20pt;
+    }
+    .b1{
+        color: #540B51; 
+    }
+    .b2{
+        background-color: #4285F4;
+        color: #F3EAE2;
+    }
+    .google{
+        width: 30px;
+        left: 50%;
+        background-color: #F3EAE2;
+    }
+    button {
+        width: px;
+        padding: 20px;
+        font-size: 20pt;
+    }
+   
+    .foto1{
+       width: 768px; 
+    }
+    .txtn2{
+        text-align: center;
+        font-size: 25pt;        
+    }
+    section{
+        background-color:  #F3EAE2;
+    }
+    .logos{
+        width: 200px;
+    }
+    .icones2{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px; 
+        background-color:  #F3EAE2;
+    }
+    .txtnfoto{
+        width: 768px;
+    }
+    h2{
+        text-align: justify;
+        font-size: 25pt;
+    }
+    .paragrafos{
+        font-size: 15pt;
+        font-style: normal;
+    }
+    .links1{
+        color: #2E71A6;
+        font-size: 15pt;
+    }
+    .bloco{
+        background-color: white;
+    }
+    h3{
+        text-align: center;
+        font-size: 30pt;
+    }
+    .txtn3{
+        text-align: center;
+        font-size: 15pt;
+    }
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 15px;
+    }
+    .b3{
+        background-color: #540B51;
+        color: #F3EAE2;
+    }
+    .b4{
+        background-color: white;
+        color: #540B51;
+    }
+    .numero{
+        text-align: center;
+        font-size: 40pt;
+        color: #540B51;
+    }
+    .txtn4{
+        text-align: center;
+        font-size: 15pt;
+    }
+    .bloco2 {
+        background-color: #540B51;
+    }
+    h4{
+        color: white;
+        text-align: center;
+        font-size: 30pt;
+    }
+    .botoes3{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+        margin: 20px;
+    }
+    .b5{
+        border-color: #F3EAE2;
+        color: #540B51;
+    }
+    .b6{
+        border-color: #F3EAE2;
+        color: #ffffff;
+        background-color: #540B51;
+    }
+    .logo2{
+        width: 70px;
+        margin-left: 20px;
+    }
+    .final{
+        display: flex;
+        gap: 50px;
+        
+    }
+    .margens{
+        margin: 20px;
+        width: 45px;
+        font-size: 15pt;
+    }
+    .margem{
+        margin: 20px;
+        width: 45px;
+        font-size: 15pt;
+        color: #4285F4;
+    }   
+    .icones_web{
+        display: flex;
+        align-content: space-around;      
+    }
+    
+
+}
