@@ -11,7 +11,6 @@ footer links grey: #454245
 body{
     margin: 0%;
     padding: 0%;
-    width: 768px;
 }
 
 .corDeFundo{
@@ -24,6 +23,10 @@ hr{
 }
 
 @media (max-width: 768px) {      
+    body{
+        width: 768px;
+    }
+    
     .menus { 
         display: none;
     }
@@ -74,14 +77,20 @@ hr{
         color: #540B51; 
     }
     .b2{
+        display: flex;
         background-color: #4285F4;
         color: #F3EAE2;
+        justify-content: space-around;        
+    }
+    .sign{
+        margin-right: 215px;
+        margin-left: 200px;
     }
     .google{
         width: 30px;
-        left: 50%;
         background-color: #F3EAE2;
     }
+
     button {
         width: px;
         padding: 20px;
@@ -90,6 +99,10 @@ hr{
    
     .foto1{
        width: 768px; 
+      
+    }
+    main{
+        background-color: #F3EAE2;
     }
     .txtn2{
         text-align: center;
@@ -183,6 +196,7 @@ hr{
     .b5{
         border-color: #F3EAE2;
         color: #540B51;
+        margin-bottom: 40px;
     }
     .b6{
         border-color: #F3EAE2;
@@ -202,6 +216,7 @@ hr{
         margin: 20px;
         width: 45px;
         font-size: 15pt;
+        font: normal;
     }
     .margem{
         margin: 20px;
@@ -211,10 +226,11 @@ hr{
     }   
     .iconesWeb{
         display: flex;
-        align-items: space-between;
-        justify-content: center;
-        flex-direction: row;      
+        justify-content: space-between;
+          
     }
-    
+    .fab{
+        color: black;
+    }
 
 }
